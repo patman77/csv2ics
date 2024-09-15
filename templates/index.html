@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSV to ICS Converter</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>CSV to ICS Calendar Converter</h1>
+      <form action="/upload/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv" required />
+        <button type="submit">Upload and Convert</button>
+      </form>
+    </div>
+  </body>
+</html>
